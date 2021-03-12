@@ -1,0 +1,23 @@
+Errors
+ROM error = 0.5 (X-Xr)' * M * (X-Xr)
+
+Inputs: epsilon = 0.001, q1 = 0.5, q2 = 0, r_dim = 12, Nx = 80, Nt = 201 
+Relative Error of POD NLLS Problem is 0.162177
+Relative Error of Optimized DMD NLLS Problem is 0.102646
+Relative Error of Standard DMD NLLS Problem is 0.173253
+ROM error of POD is 0.0065789
+ROM error of DMD is 0.00701742
+ROM error of optDMD is 0.00414646
+
+High reynolds number: turbulent flow
+
+Inputs: epsilon = 1e-05, q1 = 0.5, q2 = 0, r_dim = 5, Nx = 80, Nt = 201 
+Relative Error of POD NLLS Problem is 0.958108
+Relative Error of Optimized DMD NLLS Problem is 0.528281
+Relative Error of Standard DMD NLLS Problem is 0.54977
+ROM error of POD is 0.0434027
+ROM error of DMD is 0.0247056
+ROM error of optDMD is 0.0237212
+
+Low reynolds number: laminar flow
+easy to approximate
